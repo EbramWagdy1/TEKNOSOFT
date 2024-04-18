@@ -152,19 +152,3 @@ class _ResultState extends State<Result> {
   }
 }
 
-void main() {
-  runApp(MaterialApp(
-    home: Scaffold(
-      appBar: AppBar(
-        title: Text('BMI Calculator'),
-      ),
-      body: Result(
-        male: true,
-        height: 180,
-        age: 30,
-        weight: 75,
-        bmi: 23.4,
-      ),
-    ),
-  ));
-}
